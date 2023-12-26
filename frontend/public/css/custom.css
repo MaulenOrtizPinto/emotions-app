@@ -1,0 +1,43 @@
+.customBtnFile {
+    width: 350px;
+    max-width: 100%;
+    color: #ffffff;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+  
+.customBtnFile::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #fa2d42;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.customBtnFile::file-selector-button:hover {
+    background: rgba(255, 45, 66, 0.733);
+}
+
+.customInputParam {
+    width: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    background: rgba(150, 150, 150, 0.514);
+    border-radius: 10px;
+    border: 1px solid #fff3f3;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.bg-params {
+    --bs-bg-opacity: 0.5;
+    background-color: rgba(105, 0, 0 , var(--bs-bg-opacity)) !important;
+}
