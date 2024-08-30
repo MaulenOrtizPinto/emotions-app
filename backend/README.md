@@ -32,3 +32,6 @@ Aplicación desarrollada con Flask por alumos de la Universidad San Sebastián, 
 3. Realizar la solicitud POST a la ruta `/procesar_video`, pasando dentro del body una variable de key `video` y value el archivo de video a procesar.
 4. La respuesta, en caso de ser status 200, es el archivo descargable con los resultados del análisis y los gráficos correspondientes por cada una de las emociones encontradas. 
 En postman, es necesario guardar la respuesta para ver el archivo.
+
+### Para openAI:
+1.- Configurar API KEY de openAI en el servidor/pc que se ejecute el servicio.
