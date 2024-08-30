@@ -40,4 +40,27 @@
 .bg-params {
     --bs-bg-opacity: 0.5;
     background-color: rgba(105, 0, 0 , var(--bs-bg-opacity)) !important;
+
+    .sub-accordion {
+        padding: 0;
+        --bs-accordion-bg: #f0f0f0;
+        --bs-accordion-active-color: #ff0000;
+        --bs-accordion-active-bg: #fde6e6;
+        
+        .accordion-body {
+            background: #ffffff;
+        }
+    }
+}
+
+.instruction-text {
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+
+.instruction-text::placeholder {
+    color: rgba(231, 231, 231, 0.808)
 }
