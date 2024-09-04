@@ -58,7 +58,7 @@ def getOutputText(cluster_levels, instruction):
 def transformTextAI(text, instruction):
     client = OpenAI()
     completion = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=[
             {"role": "user", "content": f"{instruction}: {text}"}
         ]
